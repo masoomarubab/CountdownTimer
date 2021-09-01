@@ -6,7 +6,7 @@ body{
 }
 #stars {
     position: absolute;
-    animation: moveBg 1s linear infinite;
+    animation: moveBg 2s linear infinite;
 
   }
   @keyframes moveBg {
@@ -50,20 +50,22 @@ body{
     padding-top: 80px;
 }
 
-
-.moveFront {
-  opacity: 1;
-  transform: rotateX(-90deg);
-  transition: transform 0.25s ease-in;
-}
-
-.moveBack {
-  opacity: 1;
-  transform: rotateX(0deg);
-  transition: transform 0.25s ease-out;
-  ;
-}
 @media only screen and (max-width:576px){
+    #stars {
+        position: absolute;
+        animation: moveBg 2s linear infinite;
+      }
+      @keyframes moveBg {
+        100% {
+          transform: translateY(20rem);
+        }
+      }
+
+      .time-text{
+        color: hsl(237, 18%, 59%);
+        font-weight: bold;
+        font-size: 14px;
+    }
     .main-heading{
         text-transform: uppercase;
         font-weight: bold;
