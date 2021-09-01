@@ -63,6 +63,7 @@ body{
         color: hsl(237, 18%, 59%);
         font-weight: bold;
         font-size: 14px;
+        padding-left: 5px;
     }
     .main-heading{
         text-transform: uppercase;
