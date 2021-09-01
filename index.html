@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Launch countdown timer</title>
+  <!-- Bootstrap link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Family -->
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="images/bg-stars.svg" class="img-fluid" id="stars" alt="stars">
+  <h1 class="text-center text-white pt-5 pb-5 pl-1 pr-1 mb-5 mt-5 main-heading">We're launching soon</h1>
+  <div class="container">
+    <div class="row row-div">
+      <!-- Days div -->
+      <div class="col-3">
+        <div class="day"></div>
+        <h6 class="time-text text-center mt-4">DAYS</h6>
+      </div>
+
+      <!-- Hours div -->
+       <div class="col-3">
+        <div class="hours"></div>
+        <h6 class="time-text text-center mt-4 ">HOURS</h6>
+      </div>
+
+      <!-- Mins div -->
+       <div class="col-3">
+        <div class="mins"></div>
+        <h6 class="time-text text-center mt-4">MINUTES</h6>
+      </div>
+
+      <!-- Secs div -->
+      <div class="col-3">
+        <div class="secs"></div>
+        <h6 class="time-text text-center mt-4">SECONDS</h6>
+      </div>
+    </div>
+    
+  </div>
+  <footer class="w-100 footer">
+    <div class="row footer-row">
+      <div class="col-4"> <img src="images/icon-facebook.svg" alt="icon-facebook"></div>
+      <div class="col-4"> <img src="images/icon-pinterest.svg" alt="icon-facebook"></div>
+      <div class="col-4"> <img src="images/icon-instagram.svg" alt="icon-facebook"></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
