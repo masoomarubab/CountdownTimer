@@ -9,7 +9,7 @@ body{
   }
   @keyframes moveBg {
     100% {
-      transform: translateY(15rem);
+      transform: translateY(13rem);
     }
   }
 .main-heading{
@@ -67,6 +67,11 @@ body{
         font-weight: bold;
         font-size: 2rem;
     }
+    .time-text{
+    color: hsl(237, 18%, 59%);
+    font-weight: bold;
+    font-size: 12px;
+}
     .day,.hours, .mins, .secs{
         margin-top: 80px;
         background-color:  hsl(236, 21%, 26%);
