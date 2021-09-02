@@ -100,10 +100,12 @@ body{
     .footer{
         margin-top: 110px;
         height: 130px;
+        margin-bottom: 0px ;
     }
     .footer-row{
         width: 150px;
         margin: auto;
-        padding-top: 60px;
+        padding-top: 65px;
+        padding-bottom: 0px;
     }
 }
