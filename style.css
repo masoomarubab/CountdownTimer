@@ -49,6 +49,9 @@ body{
 }
 
 @media only screen and (max-width:576px){
+    body{
+        height: 100%;
+    }
     #stars {
         position: absolute;
         animation: moveBg 2s linear infinite;
