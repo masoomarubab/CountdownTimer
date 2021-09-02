@@ -84,7 +84,6 @@ body{
         padding:0 7px !important;
     }
     .day,.hours, .mins, .secs{
-        margin-top: 80px;
         background-color:  hsl(236, 21%, 26%);
         color:  hsl(345, 95%, 68%);
         border-radius: 10px;
@@ -98,6 +97,5 @@ body{
         font-weight: bolder;
     }
     .footer{
-        margin-top: 190px;
     }
 }
