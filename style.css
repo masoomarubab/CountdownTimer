@@ -45,7 +45,7 @@ body{
 .footer-row{
     width: 150px;
     margin: auto;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 @media only screen and (max-width:576px){
