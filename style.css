@@ -53,14 +53,8 @@ body{
         height: 100% !important;
     }
     #stars {
-        position: absolute;
-        animation: moveBg 2s linear infinite;
-      }
-      @keyframes moveBg {
-        100% {
-          transform: translateY(20rem);
-        }
-      }
+        display: none;
+    }
       .row-div{
         margin: 0 !important;
     }
