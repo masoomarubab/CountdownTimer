@@ -53,7 +53,7 @@ body{
         height: 100% !important;
     }
     #stars {
-        display: none;
+        display: none !important;
     }
       .row-div{
         margin: 0 !important;
@@ -92,7 +92,7 @@ body{
         font-weight: bolder;
     }
     .footer{
-        margin-top: 110px;
+        margin-top: 100px;
         height: 130px;
         margin-bottom: 0px ;
     }
