@@ -94,7 +94,8 @@ body{
     .footer{
         margin-top: 100px;
         height: 130px;
-        margin-bottom: 0px ;
+        position: absolute;
+        bottom: 0;
     }
     .footer-row{
         width: 150px;
